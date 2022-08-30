@@ -10,3 +10,6 @@ correspond à toutes les fonctions finissant par ".f90". Il s'agit principalemen
 problème. Le code hfunimplicit.f90 construit l'hamiltonien final et complet que nous utiliserons.
 
 Il y également un fichier tapAlpha.py qui correspond à Tapenade (décrit dans le rapport) et qui permet de faire la différenciation automatique.
+
+Les fonctions "_di" "_da" "_di_di" "_da_da" correspondent à des dérivées premières ou secondes selon certaines variables. Les fichiers se sont créés automatiquement après
+utilisation de Tapenade.
