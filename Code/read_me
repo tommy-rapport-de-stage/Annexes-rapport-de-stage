@@ -1,0 +1,12 @@
+Ici sont présents tous les fichiers indispensables à l'éxécution du code. Durant ce stage, j'ai pu travailler sur 3 fichiers qui sont respectivements :
+-Solarsail-simple-version-implicit
+-Solarsail-homotopy-callback
+-Solarsail-homotopy-callback-implicit
+
+(J'ai également travaillé sur tous les autres mais à moindre mesure)
+
+La dernière version et la plus complète correspond à "Solarsail-homotopy-callback-implicit". Pour pouvoir éxécuter ce code, nous avons du importer du code Fortran qui
+correspond à toutes les fonctions finissant par ".f90". Il s'agit principalement de la définition de notre hamiltonien, qui nous sera utile dans la résolution de notre 
+problème. Le code hfunimplicit.f90 construit l'hamiltonien final et complet que nous utiliserons.
+
+Il y également un fichier tapAlpha.py qui correspond à Tapenade (décrit dans le rapport) et qui permet de faire la différenciation automatique.
